@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: black;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+ 
+
+    #input{
+        width: 200px;
+        height: 50px;
+        margin: 0 auto;
+        padding: 5px;
+        margin-top: 10px;
+        border-radius: 25px;
+        border: 1px solid black;
+    }
+
+    button{
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid black;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    button::active{
+        color: whitesmoke;
+    }
+
+}
+#container{
+    width: 400px;
+    height: 700px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+   
+
+    img{
+        width: 250px;
+        
+    }
+
+    #nombrePokemon{
+        color: black;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    #tipos{
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        color: darkslategray;
+    }
+
+    #pesoAltura{
+        color: darkslategray;
+        font-size: 1.2rem;
+        
+    }
+}
